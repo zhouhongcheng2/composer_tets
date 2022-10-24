@@ -1,0 +1,15 @@
+{
+    "name": "uncle/test",
+    "description": "this is uncle test",
+    "type": "library",
+    "require": {
+        "php": ">=7.0"
+    },
+    "authors": [
+        {
+            "name": "zhouhc",
+            "email": "zhouhc@gzswg.cn"
+        }
+    ],
+    "minimum-stability": "dev"
+}
