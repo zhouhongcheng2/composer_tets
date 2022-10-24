@@ -5,6 +5,7 @@
     "require": {
         "php": ">=7.0"
     },
+	"license": "MIT"
     "authors": [
         {
             "name": "zhouhc",
@@ -12,4 +13,9 @@
         }
     ],
     "minimum-stability": "dev"
+	"autoload": {
+		"psr-4": {
+			"Uncle\\": "library/"
+		}
+	}
 }
