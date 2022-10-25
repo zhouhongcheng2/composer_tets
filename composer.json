@@ -5,17 +5,16 @@
     "require": {
         "php": ">=7.0"
     },
-	"license": "MIT"
+	"license": "MIT",
+    "autoload": {
+      "psr-0": {
+        "Uncle": "library"
+      }
+    },
     "authors": [
         {
             "name": "zhouhc",
             "email": "zhouhc@gzswg.cn"
         }
-    ],
-    "minimum-stability": "dev"
-	"autoload": [
-		"psr-4": {
-			"Uncle\\": "library/"
-		}
-	]
+    ]
 }
